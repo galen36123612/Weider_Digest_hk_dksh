@@ -7843,7 +7843,7 @@ function AppContent() {
   }
 
   const { transcriptItems } = useTranscript();
-  const { logClientEvent, logServerEvent } = useEvent();
+  const { logClientEvent } = useEvent();
 
   const [selectedAgentName, setSelectedAgentName] = useState<string>("");
   const [selectedAgentConfigSet, setSelectedAgentConfigSet] = useState<
@@ -8383,3 +8383,4 @@ function App() {
 }
 
 export default App;
+
